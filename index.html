@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Yufei Ge" />
+    <meta
+      name="description"
+      content="Yufei Ge's Personal Homepage showcasing web development projects."
+    />
+    <title>Yufei Ge | Web Developer</title>
+    <!-- Placeholder for an icon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="navbar">
+        <h1 class="logo">Yufei Ge</h1>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="design.html">Design Doc</a></li>
+          <li><a href="ai.html">Cyber Gallery</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-content">
+      <section class="hero">
+        <div class="hero-text">
+          <h2>Hello, I'm Yufei Ge.</h2>
+          <p>
+            A passionate web developer learning HTML, CSS, and JS. Welcome to my
+            homepage where I showcase my projects and creative coding
+            experiments.
+          </p>
+          <a href="#projects" class="btn">View My Work</a>
+        </div>
+        <!-- Profile picture placeholder -->
+        <div class="hero-image">
+          <img
+            src="images/profile.png"
+            alt="Profile Picture of Yufei Ge"
+            class="profile-pic"
+          />
+        </div>
+      </section>
+
+      <section id="projects" class="projects-section">
+        <h2 class="section-title">My Projects</h2>
+        <p class="section-desc">
+          Hover over the project cards to see the custom 3D tilt effect in
+          action!
+        </p>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card tilt-card" data-tilt>
+            <img
+              src="images/project1.png"
+              alt="Screenshot of Project 1"
+              class="project-image"
+            />
+            <div class="project-info">
+              <h3>Self Assessment</h3>
+              <p>
+                A web page built purely with Vanilla HTML/CSS/JS without any
+                component libraries.
+              </p>
+            </div>
+          </article>
+          <!-- Project 2 -->
+          <article class="project-card tilt-card" data-tilt>
+            <img
+              src="images/project2.png"
+              alt="Screenshot of Airbnb Clone"
+              class="project-image"
+            />
+            <div class="project-info">
+              <h3>Airbnb Listings</h3>
+              <p>
+                An AJAX-powered frontend that dynamically loads properties using
+                modern ES6+ fetch API.
+              </p>
+            </div>
+          </article>
+          <!-- Project 3 -->
+          <article class="project-card tilt-card" data-tilt>
+            <img
+              src="images/project3.png"
+              alt="Screenshot of Cyberpunk Gallery"
+              class="project-image"
+            />
+            <div class="project-info">
+              <h3>Cyberpunk Gallery</h3>
+              <p>
+                An entirely AI-generated aesthetic gallery webpage with creative
+                styling.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <p>&copy; 2026 Yufei Ge. All Rights Reserved.</p>
+      <div class="social-links">
+        <a href="https://github.com/THEO250101">GitHub</a>
+      </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
