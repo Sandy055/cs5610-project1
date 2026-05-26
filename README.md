@@ -11,7 +11,7 @@ GitHub: [THEO250101](https://github.com/THEO250101)
 
 ## 3. Class Link
 
-(Please insert your class link here if applicable)
+https://northeastern.instructure.com/courses/249954
 
 ## 4. Project Objective
 
@@ -19,7 +19,6 @@ To create a semantic, responsive, and visually appealing web portfolio featuring
 
 ## 5. Screenshot
 
-_(Please replace `screenshot.png` with an actual screenshot of the final page before submitting)_
 ![Homepage Screenshot](./images/screenshot.png)
 
 ## 6. Instructions to Build / Run Locally
