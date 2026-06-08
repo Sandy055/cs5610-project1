@@ -225,6 +225,11 @@ body {
   text-align: center;
 }
 
+.ai-card .project-image {
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+
 .cyber-box {
   font-family: monospace;
   font-size: 2rem;
